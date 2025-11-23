@@ -212,10 +212,3 @@ F5
 ```
 Set-ExecutionPolicy -Scope Process Bypass
 ```
-
-
-
-# 🧾 **11. Licencia**
-
-Este proyecto utiliza la licencia MIT incluida en `/LICENSE`.
-
