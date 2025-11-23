@@ -1,8 +1,11 @@
 # 📘 **Guided Decision System for Data Structures — Proyecto Final (C)**
 
 **Estructuras de Datos - 2025 - UDLAP **
+
 **Autores:** *Patricio K., Juan Diego A., Maximiliano C., Sergio Emilio L*
+
 **Lenguaje:** C
+
 **Compilador recomendado:** GCC (MinGW / MSYS2 / Linux / Mac)
 
 
