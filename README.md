@@ -219,23 +219,3 @@ Set-ExecutionPolicy -Scope Process Bypass
 
 Este proyecto utiliza la licencia MIT incluida en `/LICENSE`.
 
-
-
-# 🎓 **12. Créditos**
-
-Proyecto desarrollado por **Patricio K.** como entrega final del curso *Data Structures (2025)*.
-
-
-
-# ✔️ **13. Cumplimiento del Documento de Instrucciones**
-
-El proyecto cumple con:
-
-* Organización en carpetas
-* Preguntas y reglas documentadas
-* Visualización
-* Pseudocódigo
-* Ejemplo de curso
-* Ejecución multiplataforma
-* Sistema de pruebas
-* README completo para evaluación
