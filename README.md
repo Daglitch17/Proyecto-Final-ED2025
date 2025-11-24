@@ -2,7 +2,7 @@
 
 **Estructuras de Datos - 2025 - UDLAP **
 
-**Autores:** *Patricio K., Juan Diego A., Maximiliano C., Sergio Emilio L*
+**Autores:** *Patricio K., Maximiliano C.*
 
 **Lenguaje:** C
 
