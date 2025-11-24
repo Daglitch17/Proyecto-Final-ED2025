@@ -1,8 +1,8 @@
-# 📘 **Guided Decision System for Data Structures — Proyecto Final (C)**
+# 📘 **Sistema de Decisión para Estructuras de Datos — Proyecto Final (C)**
 
 **Estructuras de Datos - 2025 - UDLAP **
 
-**Autores:** *Patricio K., Maximiliano C.*
+**Autores:** *Patricio K., Maximiliano C., Juan A., Emilio L.*
 
 **Lenguaje:** C
 
