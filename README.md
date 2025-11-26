@@ -105,7 +105,7 @@ gcc src/*.c src/utils/*.c -o decision_system
 
 
 
-# 🖥️ **7. Ejecución del Sistema**
+#  **7. Ejecución del Sistema**
 
 ```
 .\decision_system.exe     (Windows)
@@ -122,7 +122,7 @@ El programa solicitará respuestas SÍ/NO (yes/no) y generará:
 
 
 
-# 🧪 **8. Pruebas (Tests)**
+#  **8. Pruebas (Tests)**
 
 Los tests se dividen en dos archivos principales:
 
@@ -132,7 +132,7 @@ Los tests se dividen en dos archivos principales:
 
 
 
-## ✔️ **Compilar y correr cada test manualmente**
+##  **Compilar y correr cada test manualmente**
 
 ### **Test 1**
 
@@ -148,7 +148,7 @@ gcc tests/test_end_to_end.c src/decision_system.c -I./src -o t2.exe
 .\t2.exe
 ```
 
-## ✔️ **Verificar resultado**
+## **Verificar resultado**
 
 En PowerShell:
 
@@ -179,7 +179,7 @@ Aquí tienes una **sección lista para copiar y pegar** en tu README, completame
 
 ---
 
-# 🧪 **Cómo correr los tests en Linux**
+#  **Cómo correr los tests en Linux**
 
 Los tests del proyecto pueden ejecutarse fácilmente desde la terminal de Linux utilizando GCC. A continuación se muestran los comandos exactos para compilar y ejecutar cada prueba.
 
