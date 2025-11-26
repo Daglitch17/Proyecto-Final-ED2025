@@ -17,6 +17,8 @@ El sistema fue desarrollado cumpliendo con los criterios establecidos en el docu
 📄 *Project Instructions*:
 `/docs/Project_Instructions.pdf`
 
+*Presentacion:* 
+https://www.canva.com/design/DAG5kfWxfTc/5RGVvpWcWZN_PtETbjIClw/edit?utm_content=DAG5kfWxfTc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 #  **2. Objetivo General**
 
