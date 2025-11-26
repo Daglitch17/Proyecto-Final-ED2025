@@ -9,7 +9,7 @@
 **Compilador recomendado:** GCC (MinGW / MSYS2 / Linux / Mac)
 
 
-# 📌 **1. Introducción**
+#  **1. Introducción**
 
 Este proyecto implementa un **Sistema Guiado de Selección de Estructuras de Datos**, cuya finalidad es recomendar al usuario la estructura de datos más adecuada según un conjunto de respuestas proporcionadas a un cuestionario breve.
 
@@ -18,7 +18,7 @@ El sistema fue desarrollado cumpliendo con los criterios establecidos en el docu
 `/docs/Project_Instructions.pdf`
 
 
-# 🎯 **2. Objetivo General**
+#  **2. Objetivo General**
 
 Construir un sistema completo que reciba requisitos del usuario, determine la estructura de datos más apropiada y genere:
 
@@ -28,7 +28,7 @@ Construir un sistema completo que reciba requisitos del usuario, determine la es
 * Un ejemplo práctico basado en ejercicios del curso.
 
 
-# 🎯 **3. Objetivos Específicos**
+#  **3. Objetivos Específicos**
 
 * Aplicar conocimientos de **arrays, listas, colas, pilas, árboles, heaps, grafos y tablas hash**.
 * Analizar requisitos y convertirlos en decisiones determinísticas.
@@ -38,7 +38,7 @@ Construir un sistema completo que reciba requisitos del usuario, determine la es
 * Crear un proyecto que compile y se ejecute en cualquier plataforma.
 
 
-# 🧱 **4. Requisitos del Sistema**
+#  **4. Requisitos del Sistema**
 
 ## **Obligatorios**
 
@@ -54,7 +54,7 @@ Construir un sistema completo que reciba requisitos del usuario, determine la es
 
 
 
-# 📂 **5. Estructura del Proyecto**
+#  **5. Estructura del Proyecto**
 
 ```
 DS_Project/
@@ -87,7 +87,7 @@ DS_Project/
 
 
 
-# ⚙️ **6. Compilación del Programa Principal**
+#  **6. Compilación del Programa Principal**
 
 ## **Windows (PowerShell o CMD)**
 
@@ -160,8 +160,7 @@ echo $LASTEXITCODE
 * `1` = test falló
 
 
-
-# 🧪 **Test Runner (recomendado)**
+#  **Test Runner (recomendado)**
 
 ```
 gcc tests/test_runner.c -o test_runner.exe
@@ -176,29 +175,64 @@ El runner automáticamente:
 4. Ejecuta `t2.exe`
 5. Reporta resultados
 
+Aquí tienes una **sección lista para copiar y pegar** en tu README, completamente formateada y con los comandos correctos para **Linux**, siguiendo tu mismo estilo.
 
+---
 
-# 🛠️ **9. Uso en Visual Studio Code**
+# 🧪 **Cómo correr los tests en Linux**
 
-## **Compilar con:**
+Los tests del proyecto pueden ejecutarse fácilmente desde la terminal de Linux utilizando GCC. A continuación se muestran los comandos exactos para compilar y ejecutar cada prueba.
 
+---
+
+## **Test 1 — test_decision_rules.c**
+
+Compilar:
+
+```bash
+gcc tests/test_decision_rules.c src/decision_system.c src/utils/*.c -I./src -o t1
 ```
-Ctrl + Shift + B
+
+Ejecutar:
+
+```bash
+./t1
 ```
 
-(Requiere archivo `tasks.json`)
+---
 
-## **Ejecutar con:**
+## **Test 2 — test_end_to_end.c**
 
+Compilar:
+
+```bash
+gcc tests/test_end_to_end.c src/decision_system.c src/utils/*.c -I./src -o t2
 ```
-F5
+
+Ejecutar:
+
+```bash
+./t2
 ```
 
-(Requiere archivo `launch.json`)
+---
 
+##  **Verificar el resultado de cada test**
 
+Después de ejecutar cualquier test:
 
-# 🛠️ **10. Notas importantes para Windows**
+```bash
+echo $?
+```
+
+Interpretación:
+
+* `0` → Test aprobado
+* `1` → Test falló
+
+---
+
+#  **10. Notas importantes para Windows**
 
 * En PowerShell NO se usa `./programa` como en Linux.
   Se usa:
